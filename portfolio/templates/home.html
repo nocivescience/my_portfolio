@@ -1,5 +1,6 @@
 {% extends 'layout.html' %}
 {% block content %}
+{% load static %}
 <main class="container">
     <div class="row">
         <section class="">
@@ -8,4 +9,21 @@
         </section>
     </div>
 </main>
+<!-- <div class="container">
+    <style>
+        #cardReactVideo:hover{
+            box-shadow: 1px 1px 27px rgba(0, 0, 0, 0.616);
+            transform: scale(1.05);
+            transition: transform .3s ease-out, box-shadow .3s ease-out;
+        }
+    </style>
+    <div id="cardReactVideo" class="card rounded p-2" style="max-width: 18rem; margin-top: 100px;">
+        <video src="{% static 'portfolio/videos/ReactScene.mp4' %}" autoplay muted loop></video>
+        <div class="card-body">
+          <p class="card-text">
+            React Was a wonderful library to learn, it was easier understand, I was understanding in first place Javascript and it was funny learning it.
+          </p>
+        </div>
+    </div>
+</div> -->
 {% endblock %}
