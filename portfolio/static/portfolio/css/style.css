@@ -1,0 +1,14 @@
+.photo-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 40px;
+    box-shadow:  0 0 12px black;
+}
+@media only screen and (max-width:991px){
+    .photo-image{
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+}

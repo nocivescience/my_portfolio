@@ -1,0 +1,13 @@
+  #game-canvas {
+    background-color: black;
+    color: rgb(255, 38, 38);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 45%;
+    box-shadow: 6px 1px 10px rgb(32, 32, 32);
+    opacity: .8;
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+  }

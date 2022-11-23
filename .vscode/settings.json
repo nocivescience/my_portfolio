@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ca2ebb7d-acae-4fc4-9cd6-302c7cabaea0/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/nocive",
+    "appService.deploySubpath": "."
+}

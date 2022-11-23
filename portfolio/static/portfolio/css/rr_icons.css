@@ -1,0 +1,15 @@
+svg:hover{
+    animation: icon-scale .4s ease-in-out
+}
+@keyframes icon-scale{
+    0% ,100% {transform: scale(1);}
+    10% {transform: scale(1.5);}
+    20% {transform: scale(1);}
+    30% {transform: scale(1.5);}
+    40% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    60% {transform: scale(1);}
+    70% {transform: scale(1.5);}
+    80% {transform: scale(1);}
+    90% {transform: scale(1.5);}
+}
