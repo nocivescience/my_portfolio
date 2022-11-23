@@ -155,9 +155,11 @@
       ctx.stroke()
       for (let i = 0; i < missiles.length; i++) {
         let m = missiles[i]
+        ctx.beginPath()
         ctx.fillStyle = ship.laser[i % ship.laser.length]
-        ctx.filter='blur(4px)';
+        // ctx.filter='blur(1px)';
         ctx.fillRect(m.x, (m.y -= 5), m.w, m.h - 10)
+        ctx.closePath();
       }
     }
     function missilAndRoids() {
