@@ -26,6 +26,7 @@ urlpatterns = [
     path('projects/', views.projects, name='projects'),
     path('games/' ,views.games, name='games'),
     path('projects/bouncing_balls/', views.bouncing_balls, name='bouncing_balls'),
-    path('games/starwars', views.startwars, name='starwars')
+    path('games/starwars', views.startwars, name='starwars'),
+    path('signup/', views.signup, name='signup')
 ]
 urlpatterns+= static(settings.MEDIA_URL, document_root= settings.MEDIA_ROOT)
