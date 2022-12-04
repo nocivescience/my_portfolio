@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-sxl7c2nn6i&j8c_2$bsue2#9qk^9v1x0v)5z$-&w%1ag!&iph2
 
 DEBUG='RENDER' not in os.environ
 
-ALLOWED_HOSTS = ['nocive.azurewebsites.net','169.254.132.4']
+ALLOWED_HOSTS = []
 
 RENDER_EXTERNAL_HOSTNAME=os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
